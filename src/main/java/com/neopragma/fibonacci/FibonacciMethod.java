@@ -1,5 +1,5 @@
 package com.neopragma.fibonacci;
 
 public enum FibonacciMethod {
-    ITERATIVE, RECURSIVE;
+    ITERATIVE, RECURSIVE, LAMBDA;
 }
