@@ -19,5 +19,11 @@ public class FibonacciTest {
 		Fibonacci fibonacci = new Fibonacci(FibonacciMethod.RECURSIVE,10);
 		assertArrayEquals(expectedResult, fibonacci.result());
 	}
+	
+	@Test
+	public void itReturnsFibonacciSeriesTo34UsingLambda() {
+		Fibonacci fibonacci = new Fibonacci(FibonacciMethod.LAMBDA,10);
+		assertArrayEquals(expectedResult, fibonacci.result());
+	}
 
 }
