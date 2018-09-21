@@ -1,3 +1,3 @@
 # java-fibonacci
 
-This is a starting point for an interview problem or code dojo activity exploring iteration and recursion in Java.
+This is a starting point for coding exercise dojo exploring iteration, recursion, and lambda expressions in Java.
